@@ -553,8 +553,6 @@ const StatusChip = styled.span`
   font-weight: 700;
   border: 1px solid;
   color: ${({ $tone }) => ($tone === 'success' ? '#8ff0bf' : $tone === 'danger' ? '#ff9b9b' : 'rgba(255,255,255,0.68)')};
-  background: ${({ $tone }) => ($tone === 'success' ? 'rgba(16,185,129,0.12)' : $tone === 'danger' ? 'rgba(239,68,68,0.12)' : 'rgba(255,255,255,0.04)')};
-  border-color: ${({ $tone }) => ($tone === 'success' ? 'rgba(16,185,129,0.26)' : $tone === 'danger' ? 'rgba(239,68,68,0.26)' : 'var(--border)')};
 `
 
 const TableWrap = styled.div`
